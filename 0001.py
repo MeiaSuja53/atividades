@@ -1,9 +1,4 @@
-def par_ou_impar(numero):
-    if numero % 2== 0:
-        print(f'0 numero {numero} e par')
-    else:
-        print(f'0 numero {numero} e impar.')
-
-while True:
-    par_ou_impar(int(input('digite o numero inteiro: ')))
+def replace_vogais(texto):
+    return texto.replace ('a' , '*').replace ('A', '*').replace('e', '*').replace('E', '*').replace('i', '*').replace('I', '*').replace('o', '*').replace ('O', '*').replace('u','*').replace('U', '*')
+print (replace_vogais(input('Digite uma palavra: ')))
     
